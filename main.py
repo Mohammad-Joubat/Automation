@@ -11,20 +11,20 @@ driver = webdriver.Chrome(service=driver_service)
 driver.get("https://www.skyscanner.co.il/")
 driver.maximize_window()
 ''' Flight From : '''
-class Travel_from():
+def Travel_from():
     flight_from = driver.find_element(By.XPATH, "//*[@id='fsc-origin-search']")
     flight_from.click()
     # flight_from.clear()
     flight_from.send_keys('Tlv')
     time.sleep(1)
 '''Flight To :'''
-class Travel_to():
+def Travel_to():
     flight_to = driver.find_element(By.CSS_SELECTOR,'#fsc-destination-search')
     flight_to.click()
     flight_to.send_keys('Portugal')
     time.sleep(1)
 '''Date OF Departure: '''
-class departure():
+def departure():
     Depart = driver.find_element(By.CSS_SELECTOR, '#depart-fsc-datepicker-button > span')
     Depart.click()
     time.sleep(2)
