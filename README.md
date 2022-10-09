@@ -5,7 +5,7 @@
 
 Two Steps to run the code : 
 
-1) Downloading Driver for your Browser ( I Use Google Chrome) 
+1) Downloading Any Driver for your Browser ( I Use Google Chrome Driver) 
 
 2) In line 9 in the code put the path of the driver that you saved 
 
