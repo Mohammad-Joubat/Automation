@@ -1,6 +1,6 @@
 *) Building code that relates between departure and destination of passengers automatically
 
-*) The Script do automation in sky scanner website:
+*) The Script makes automation in sky scanner website:
 ![3](https://user-images.githubusercontent.com/68898478/194744791-3b0fddd6-68e5-4f48-b77f-927b61c5cf01.png)
 
 Three Steps to run the code : 
